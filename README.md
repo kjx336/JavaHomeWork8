@@ -10,10 +10,10 @@ public static Integer valueOf(String s) throws NumberFormatException<br>
 另一种将异常抛出，交由JVM捕获处理。
 
 
-### 在java.lang包中定义了Integer类作为int数据类型的对等类，其中定义了如下方法：<br>
-public static Integer valueOf(String s) throws NumberFormatException<br>
-用于将字符串s转换成Integer对象。当s不符合整数格式时，该方法抛出NumberFormatException异常。请编写简单程序使用valueOf()方法转换一字符串为Integer对象，用2种方法抛出NumberFormatException异常：<br>
-一种由程序本身捕获并处理异常，<br>
+### 在java.lang包中定义了Integer类作为int数据类型的对等类，其中定义了如下方法：
+public static Integer valueOf(String s) throws NumberFormatException
+用于将字符串s转换成Integer对象。当s不符合整数格式时，该方法抛出NumberFormatException异常。请编写简单程序使用valueOf()方法转换一字符串为Integer对象，用2种方法抛出NumberFormatException异常：
+一种由程序本身捕获并处理异常，
 另一种将异常抛出，交由JVM捕获处理。
 
 较为简单，定义超类License，内含参数编号、姓名、性别、出生年月，并含有print()函数用来输出。用SLicense和TLicens继承License类，各自定义构造方法，使用主类验证即可。
