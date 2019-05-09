@@ -41,15 +41,12 @@ try语句块内如果出现异常，catch语句就可以捕获异常。光看语句还是挺简单的。
 有三点大原则需要注意：
 * 所有异常都必须是 Throwable 的子类。
 * 如果希望写一个检查性异常类，则需要继承 Exception 类。
-* 如果你想写一个运行时异常类，那么需要继承 RuntimeException 类。
+* 如果想写一个运行时异常类，那么需要继承 RuntimeException 类。
 自定义异常类的方法是：
 ```
 class MyException extends Exception{
 }
 ```
-MyException就是自定义的异常类了。
-
-
-
-
+MyException就是自定义的异常类了。这是个检查性异常类。<br>
+总体来说，java异常处理机制并不算很复杂，入门时会由于C/C++中没涉及到过理解起来会有一定困难，但是用起来还是蛮简单的。
 <br>*Signed-off-by: 遥梦幽兰kzx <kjx336@163.com>*
